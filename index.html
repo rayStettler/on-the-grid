@@ -1,20 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head> 
+	<!--Add bootstrap elements -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
 		rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	
+	<!--Title & stylesheet -->
+
 	<title>Website Template</title>
 	<link rel="stylesheet" href="./assets/css/styles.css">
+	
+	<!--Colors for the cite, would normally be in the style sheet but instead we're using tags *shrugs*
+	 -->
+
+	<style> 
+	:root {
+		--dusk-blue: #4c6085ff;
+		--blue-bell: #39a0edff;
+		--aquamarine: #36f1cdff;
+		--mint-leaf: #13c4a3ff;
+		--charcoal-brown: #32322cff;
+	</style>
+	
 </head>
 <body>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
-
-	<script src="./assets/js/main.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-3"> 
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class=""col-5>
+			<img src="assets/img/cat-34.png" alt="blac cat" class="img-fluid">
+		</div>
+			<div class="col-4">
+				<h3>Lorem Ipsum</h3>
+				<p>Donec vel magna sem. Quisque eget quam facilisis, eleifend tortor id, fauibus nisl.</p>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
 		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
